@@ -24,6 +24,13 @@ namespace Cas27
 
         static void IvaninKod()
         {
+            /*
+             * Obzirom da imamo dve klase Knjiga, za slucaj da moramo
+             * da pristupimo obema, radili bismo to na sledeci nacin:
+             * var K = new Ivana.Knjiga();
+             * ili
+             * var K = new Ivica.Knjiga();
+             */
             var knjiga1 = new Avantura
             {
                 Autor = "Pera Peric",
